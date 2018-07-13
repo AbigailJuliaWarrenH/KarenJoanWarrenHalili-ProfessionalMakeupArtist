@@ -1,0 +1,43 @@
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*.jumbotron {
+	background-image: url(../images/eye.jpeg);
+	height: 100%;
+	width: 100%;
+}*/
+
+.container-fluid{
+	background-image: url(../images/as.jpeg);
+	height: 100%;
+	width: 100%;
+}
+
+
+blockquote{
+	font-family: 'Nothing You Could Do', cursive;
+
+}
+
+.kj{
+	font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+.portfolio{
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+#navbarnav {
+	font: black;
+}
+
+
+
+
+
+
