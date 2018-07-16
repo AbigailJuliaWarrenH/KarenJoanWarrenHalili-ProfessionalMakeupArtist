@@ -12,7 +12,7 @@
 }*/
 
 .container-fluid{
-	background-image: url(../images/as.jpeg);
+	background: black;
 	height: 100%;
 	width: 100%;
 }
