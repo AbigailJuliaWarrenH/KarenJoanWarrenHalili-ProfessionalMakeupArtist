@@ -61,6 +61,53 @@ blockquote{
     color: black;
 }
 
+/*#portf{
+	width: 10px;
+	height: 20px;
+	border-radius: 20px;
+}*/
+
+/*test modal*/
+.top1{
+
+    height:390px;
+    background-color:#FFFFFF;
+    margin-top:10px;
+
+
+}
+
+#portf{
+height:230px;
+width: 230px;
+border-radius: 20px; 
+}
+
+/*.portf1 img {
+	height: 300px !important;
+	width: 300px !important;
+}*/
+
+.name1{
+
+background-color:#555555;
+height:90px;
+
+}
+
+
+
+/*.description1{
+background-color:#777777;
+height:70px;
+}
+*/
+
+
+/*end test modal*/
+
+
+
 
 
 /*card tentative design*/
