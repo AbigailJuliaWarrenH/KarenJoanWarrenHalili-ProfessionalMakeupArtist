@@ -1,4 +1,4 @@
-/*.modal-dialog{
-	height:100%; 
-	width:100%;
-}*/
+.btn .btn-primary{
+	position: absolute;
+	bottom: 100%;
+}
