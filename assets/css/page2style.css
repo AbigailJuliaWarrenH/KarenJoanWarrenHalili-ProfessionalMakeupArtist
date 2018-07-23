@@ -5,36 +5,76 @@
 }
 
 
+html, body{
+    overflow-x: hidden;
+}
 
 .container-fluid{
 	background-color: black;
-	height: 300%;
-	width: 300%;
+	height: 100%;
+	width: 100%;
 	position: relative;
 }
 
+body {
+	background-image: url( ../images/purple.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Song Myung', serif;
+    width: 100vw;
+    height: 100vh;
+    
+   
+}
+    
+
 
 blockquote{
-	font-family: 'Nothing You Could Do', cursive;
-
+	font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 40px;
+    margin-top: -15px;
+    text-align: center;
+}
+.blockquote-footer{
+    color: black;
 }
 
 .kj{
 	font-family: 'Libre Barcode 128 Text', cursive;
+    position: relative;
+    top: 400px;
 }
 
 .portfolio{
 	font-family: 'Monoton', cursive;
 	text-align: center;
+    color: darkviolet;
+    
 }
 
 .navbar {
 	background-color: black;
+/*    font-family: 'Righteous', cursive;*/
+   
 }
 
+h4 {
+     font-family: 'Homemade Apple', cursive;
+}
+h6 {
+    line-height: 5px;
+     font-family: 'Righteous', cursive;
+}
 #navbarnav .nav-link {
 	color: pink;
 	background-color: black;
+     font-family: 'Roboto', cursive;
 }
 
 .centered {
@@ -42,6 +82,7 @@ blockquote{
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 
@@ -61,24 +102,108 @@ blockquote{
     color: black;
 }
 
-
-
-/*card tentative design*/
-
-/*.card1 {
+dv{
     position: absolute;
-   	top: 40%;
-    left: 15%;
-    transform: translate(-50%, -50%);
 }
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
+img{
+    background size: cover; 
+    background-repeat: no-repeat;
+    top: 100px;
+/*   margin-bottom: 40px;*/
+    margin-top: -100px;
+    margin-left: -15px;
 }
-*/
-	
+.img-fluid{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+}
+
+.pills{
+    position: relative;
+    text-align: center;
+    top: 310px;
+    left: 15px;
+    
+}
+
+.pill1{
+    color: darkorchid;
+}
+
+.pill2{
+    color: hotpink;
+}
+.pill3{
+    color: wheat;
+}
+.pill4{
+    color: darkorchid;
+}
+
+.fixed-bottom {
+    position: fixed;
+    height: 100px;
+    bottom: -10px;
+    width: 100%;
+    text-align: center;
+    line-height: 10px;;
+     
+}
+.modal-footer {
+    text-align: center;
+    margin: auto;
+    font-family: 'Righteous', cursive;
+}
+
+
+/*media query*/
+
+
+@media (max-width: 575.98px){
+    .pills{
+        position: relative;
+        top: 200px;
+    }
+    
+    .kj{
+	font-family: 'Libre Barcode 128 Text', cursive;
+    position: relative;
+    top: 300px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+}	
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .pills{
+        position: relative;
+        top: 600px;
+    }
+    .kj{
+	font-family: 'Libre Barcode 128 Text', cursive;
+    position: relative;
+    top: 700px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .pills{
+        position: relative;
+        top: 1000px;
+    }
+    
+    .kj{
+	font-family: 'Libre Barcode 128 Text', cursive;
+    position: relative;
+    top: 1000px;
+ }
+}
+
+@media (min-width: 1200px) {
+
+}

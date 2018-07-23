@@ -1,0 +1,244 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body {
+	background-image: url( ../images/landing.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Song Myung', serif;
+    width: 100vw;
+    height: 100vh;
+    
+   
+}
+
+
+.container-fluid{
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+
+blockquote{
+	font-family: 'Nothing You Could Do', cursive;
+
+}
+
+.kj{
+	font-family: 'Libre Barcode 128 Text', cursive;
+    position: relative;
+    top: 450px;
+    
+  
+    
+}
+
+.portfolio{
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+.navbar {
+	background-color: black;
+}
+
+#navbarnav .nav-link {
+	color: pink;
+	background-color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.centered2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent{
+    position: absolute;
+}
+
+.btn {
+    position: relative;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hotpink;
+    color: floralwhite;
+    font-size: 20px;
+}
+
+img{
+  background size: cover; 
+  background-repeat: no-repeat;
+  top: 100px;
+/*   margin-bottom: 40px;*/
+  margin-top: -100px;
+margin-left: -15px;
+}
+.img-fluid{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+}
+.hb{
+    position: relative;
+    top: 40px;
+    
+}
+.name{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 50px;
+    font-family: 'Homemade Apple', cursive;
+    margin: 35px;
+    padding: 20px;
+    background: gray;
+    opacity: 0.5;
+    color: snow;
+    
+
+}
+.career{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Homemade Apple', cursive;
+    background: gray;
+    opacity: 0.5;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+}
+
+.fixed-bottom {
+        position: fixed;
+        height: 100px;
+        bottom: -15px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+   
+ 
+    
+}
+
+/*card tentative design*/
+
+/*.card1 {
+    position: absolute;
+   	top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+*/
+
+
+
+/*media query*/
+@media (max-width: 575.98px){
+  .fixed-bottom {
+        position: fixed;
+        height: 100px;
+        bottom: -15px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+    }   
+
+    .btn {
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hotpink;
+    color: floralwhite;
+    font-size: 15px;
+    }
+    .name{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-family: 'Homemade Apple', cursive;
+    margin: 35px;
+    padding: 20px;
+    background: gray;
+    opacity: 0.5;
+    color: white;
+    }
+.career{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Homemade Apple', cursive;
+    background: gray;
+    opacity: 0.5;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+  
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+}	
+
+@media (min-width: 768px) and (max-width: 767.98px){
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+   .btn {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hotpink;
+    color: floralwhite;
+    font-size: 30px;
+    } 
+}
+
+@media (min-width: 1200px) {
+    
+}
